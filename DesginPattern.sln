@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTon", "SingleTon\SingleTon.csproj", "{5E221957-2437-4586-9314-DD23909C3C30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTon", "SingleTon\SingleTon.csproj", "{5E221957-2437-4586-9314-DD23909C3C30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglTonNotThredSafe", "SinglTonNotThredSafe\SinglTonNotThredSafe.csproj", "{A944D5EA-B2BB-47E8-9F6C-762EBF8AA5F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglTonNotThredSafe", "SinglTonNotThredSafe\SinglTonNotThredSafe.csproj", "{A944D5EA-B2BB-47E8-9F6C-762EBF8AA5F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTonThreadSafeUsingLock", "SingleTonThreadSafeUsingLock\SingleTonThreadSafeUsingLock.csproj", "{FD801347-8086-481C-96FD-FCF09B557DA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTonThreadSafeUsingLock", "SingleTonThreadSafeUsingLock\SingleTonThreadSafeUsingLock.csproj", "{FD801347-8086-481C-96FD-FCF09B557DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleToneThredUsingDoubleClick", "SingleToneThredUsingDoubleClick\SingleToneThredUsingDoubleClick.csproj", "{1579B524-443F-451D-A954-5EDEE96C462A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleToneThredUsingDoubleClick", "SingleToneThredUsingDoubleClick\SingleToneThredUsingDoubleClick.csproj", "{1579B524-443F-451D-A954-5EDEE96C462A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTonEgerLoading", "SingleTonEgerLoading\SingleTonEgerLoading.csproj", "{E67D6228-2964-405A-88B7-D4B034A2CC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTonEgerLoading", "SingleTonEgerLoading\SingleTonEgerLoading.csproj", "{E67D6228-2964-405A-88B7-D4B034A2CC0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTonLazyLoading", "SingleTonLazyLoading\SingleTonLazyLoading.csproj", "{68293F03-497E-478F-B728-F86786876765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTonLazyLoading", "SingleTonLazyLoading\SingleTonLazyLoading.csproj", "{68293F03-497E-478F-B728-F86786876765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDSingle Responsibility", "SOLIDSingle Responsibility\SOLIDSingle Responsibility.csproj", "{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDOpen Closed", "SOLIDOpen Closed\SOLIDOpen Closed.csproj", "{846E98A7-A892-48DC-9D19-06A2BDA9E768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{68293F03-497E-478F-B728-F86786876765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68293F03-497E-478F-B728-F86786876765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68293F03-497E-478F-B728-F86786876765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
