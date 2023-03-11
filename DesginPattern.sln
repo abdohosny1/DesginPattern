@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTonEgerLoading", "Sin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTonLazyLoading", "SingleTonLazyLoading\SingleTonLazyLoading.csproj", "{68293F03-497E-478F-B728-F86786876765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDSingle Responsibility", "SOLIDSingle Responsibility\SOLIDSingle Responsibility.csproj", "{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDSingle Responsibility", "SOLIDSingle Responsibility\SOLIDSingle Responsibility.csproj", "{CB6F78D4-38A3-4BB2-A34B-FCED775DD25E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDOpen Closed", "SOLIDOpen Closed\SOLIDOpen Closed.csproj", "{846E98A7-A892-48DC-9D19-06A2BDA9E768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDOpen Closed", "SOLIDOpen Closed\SOLIDOpen Closed.csproj", "{846E98A7-A892-48DC-9D19-06A2BDA9E768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDLiskovSubstitution", "SOLIDLiskovSubstitution\SOLIDLiskovSubstitution.csproj", "{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{846E98A7-A892-48DC-9D19-06A2BDA9E768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
