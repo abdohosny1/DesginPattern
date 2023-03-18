@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTon", "SingleTon\SingleTon.csproj", "{5E221957-2437-4586-9314-DD23909C3C30}"
 EndProject
@@ -21,13 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDOpen Closed", "SOLIDOp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDLiskovSubstitution", "SOLIDLiskovSubstitution\SOLIDLiskovSubstitution.csproj", "{2A914717-9B0E-4065-A8D7-8D4CA3F5B002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID Interface Segregation", "SOLID Interface Segregation\SOLID Interface Segregation.csproj", "{7C749BCB-BA14-4CEC-A857-7D5808B10FF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID Interface Segregation", "SOLID Interface Segregation\SOLID Interface Segregation.csproj", "{7C749BCB-BA14-4CEC-A857-7D5808B10FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID Dependency Inversion", "SOLID Dependency Inversion\SOLID Dependency Inversion.csproj", "{93012F3D-8620-4F62-931C-822FFA365CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID Dependency Inversion", "SOLID Dependency Inversion\SOLID Dependency Inversion.csproj", "{93012F3D-8620-4F62-931C-822FFA365CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational Patterns Singleton Pattern", "Creational Patterns Singleton Pattern\Creational Patterns Singleton Pattern.csproj", "{86EEED19-DB0A-4F08-8011-54187F89093F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational Patterns Singleton Pattern", "Creational Patterns Singleton Pattern\Creational Patterns Singleton Pattern.csproj", "{86EEED19-DB0A-4F08-8011-54187F89093F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational Patterns Prototype Pattern", "Creational Patterns Prototype Pattern\Creational Patterns Prototype Pattern.csproj", "{6B6709A9-14E7-418D-B13C-C01DAF923965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational Patterns Prototype Pattern", "Creational Patterns Prototype Pattern\Creational Patterns Prototype Pattern.csproj", "{6B6709A9-14E7-418D-B13C-C01DAF923965}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{2CA4F519-B37E-4E11-BDCC-09BCA2C1BB54}"
 EndProject
@@ -37,11 +37,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingleTon", "SingleTon", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{70B2646B-742A-4981-80E4-CCA33FD7CE6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{9BC4E026-CB37-4344-B297-8F4807C64E9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{9BC4E026-CB37-4344-B297-8F4807C64E9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{DFE503B1-6F0B-40A9-9ED6-3279C172FFF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{FAC37B71-421B-4500-B81F-CB5F662C0C56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{FAC37B71-421B-4500-B81F-CB5F662C0C56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProplrmFactoryPattern", "ProplrmFactoryPattern\ProplrmFactoryPattern.csproj", "{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +115,14 @@ Global
 		{FAC37B71-421B-4500-B81F-CB5F662C0C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC37B71-421B-4500-B81F-CB5F662C0C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC37B71-421B-4500-B81F-CB5F662C0C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +146,9 @@ Global
 		{9BC4E026-CB37-4344-B297-8F4807C64E9C} = {70B2646B-742A-4981-80E4-CCA33FD7CE6F}
 		{DFE503B1-6F0B-40A9-9ED6-3279C172FFF9} = {CD0095A8-E02D-412A-B45E-7D8D14365413}
 		{FAC37B71-421B-4500-B81F-CB5F662C0C56} = {DFE503B1-6F0B-40A9-9ED6-3279C172FFF9}
+		{5CD4E368-F5C1-447E-98F2-364FAEEFDC3E} = {CD0095A8-E02D-412A-B45E-7D8D14365413}
+		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
+		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E18F306-1BB3-43ED-980F-482E4463543F}
