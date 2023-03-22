@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleTon", "SingleTon\SingleTon.csproj", "{5E221957-2437-4586-9314-DD23909C3C30}"
 EndProject
@@ -45,9 +45,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "Builder 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{D2417CDC-F769-42B9-AEE9-0A8214B08B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProplrmFactoryPattern", "ProplrmFactoryPattern\ProplrmFactoryPattern.csproj", "{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProplrmFactoryPattern", "ProplrmFactoryPattern\ProplrmFactoryPattern.csproj", "{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Factory", "Abstract Factory", "{7839F177-631E-47CC-8700-834A639395CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{739BEE34-EAFE-4A18-A64E-792E1FDBACF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,10 @@ Global
 		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739BEE34-EAFE-4A18-A64E-792E1FDBACF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739BEE34-EAFE-4A18-A64E-792E1FDBACF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739BEE34-EAFE-4A18-A64E-792E1FDBACF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739BEE34-EAFE-4A18-A64E-792E1FDBACF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +157,8 @@ Global
 		{5CD4E368-F5C1-447E-98F2-364FAEEFDC3E} = {CD0095A8-E02D-412A-B45E-7D8D14365413}
 		{D2417CDC-F769-42B9-AEE9-0A8214B08B8A} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
 		{018F1BC6-80F0-44A8-A85C-BF1B63B0E7B5} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
+		{7839F177-631E-47CC-8700-834A639395CD} = {CD0095A8-E02D-412A-B45E-7D8D14365413}
+		{739BEE34-EAFE-4A18-A64E-792E1FDBACF0} = {7839F177-631E-47CC-8700-834A639395CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E18F306-1BB3-43ED-980F-482E4463543F}
