@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Decorator_Pattern.Decorator;
+using System;
 
 namespace Decorator_Pattern
 {
@@ -12,20 +13,15 @@ namespace Decorator_Pattern
         static void Main(string[] args)
         {
 
+            ConcereteSMSService sMSService=new ConcereteSMSService();
+            NotificationEmailDecorator notificationEmailDecorator= new NotificationEmailDecorator();    
 
-            Student student1=new Student();
-         //   student1.SetName("Test");
-           
-            WriteColorLine(student1.GetName());
+            notificationEmailDecorator.setService(sMSService);
+            WriteColorLine(notificationEmailDecorator.sendSMS("123","012234455","message 1"));
 
-Student studentstudent2 =new Student(name:"abdo",age:20);
+            SMSServiceProxy sMSServiceProxy = new SMSServiceProxy();
+            WriteColorLine(sMSServiceProxy.sendSms("123", "0112345", " hello messsage 1"));
 
-            WriteColorLine(studentstudent2.GetName());
-
-            Emp e=new Emp();
-            e.Age = 20;
-            e.Name = "emp";
-            e.print();
 
 
         }
