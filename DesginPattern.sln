@@ -81,13 +81,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibilityy", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain of Responsibility", "Chain of Responsibility\Chain of Responsibility.csproj", "{F757C003-31BC-45B2-AD19-A80C9A7DEC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metigator.DesignPattern.Before", "Metigator.DesignPattern.Before\Metigator.DesignPattern.Before.csproj", "{24FB98D8-5FF6-44E1-BD80-2FF2E461B475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metigator.DesignPattern.Before", "Metigator.DesignPattern.Before\Metigator.DesignPattern.Before.csproj", "{24FB98D8-5FF6-44E1-BD80-2FF2E461B475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metigator.DesignPattern.SimpleFactory", "Metigator.DesignPattern.SimpleFactory\Metigator.DesignPattern.SimpleFactory.csproj", "{BC42EE62-E6B6-477F-9673-23FD6A932AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metigator.DesignPattern.SimpleFactory", "Metigator.DesignPattern.SimpleFactory\Metigator.DesignPattern.SimpleFactory.csproj", "{BC42EE62-E6B6-477F-9673-23FD6A932AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metigator.DesignPattern.FactoryMethod", "Metigator.DesignPattern.FactoryMethod\Metigator.DesignPattern.FactoryMethod.csproj", "{F79C65AE-8516-40A6-BB00-1899444A9DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metigator.DesignPattern.FactoryMethod", "Metigator.DesignPattern.FactoryMethod\Metigator.DesignPattern.FactoryMethod.csproj", "{F79C65AE-8516-40A6-BB00-1899444A9DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metigator.DesignPattern.AbstractFactory", "Metigator.DesignPattern.AbstractFactory\Metigator.DesignPattern.AbstractFactory.csproj", "{228CF85E-2BA8-4186-B595-17130C9A9DF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metigator.DesignPattern.AbstractFactory", "Metigator.DesignPattern.AbstractFactory\Metigator.DesignPattern.AbstractFactory.csproj", "{228CF85E-2BA8-4186-B595-17130C9A9DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_worstCase", "Builder_worstCase\Builder_worstCase.csproj", "{D28CCB13-4E68-4400-9EA5-D58DB5FD958E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder_UseCase", "Builder_UseCase\Builder_UseCase.csproj", "{7E3E0695-5AA3-41EA-B94C-1AD9D439E793}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +211,14 @@ Global
 		{228CF85E-2BA8-4186-B595-17130C9A9DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{228CF85E-2BA8-4186-B595-17130C9A9DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{228CF85E-2BA8-4186-B595-17130C9A9DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28CCB13-4E68-4400-9EA5-D58DB5FD958E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28CCB13-4E68-4400-9EA5-D58DB5FD958E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28CCB13-4E68-4400-9EA5-D58DB5FD958E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28CCB13-4E68-4400-9EA5-D58DB5FD958E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3E0695-5AA3-41EA-B94C-1AD9D439E793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3E0695-5AA3-41EA-B94C-1AD9D439E793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3E0695-5AA3-41EA-B94C-1AD9D439E793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3E0695-5AA3-41EA-B94C-1AD9D439E793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -251,6 +263,8 @@ Global
 		{BC42EE62-E6B6-477F-9673-23FD6A932AA9} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
 		{F79C65AE-8516-40A6-BB00-1899444A9DC9} = {5CD4E368-F5C1-447E-98F2-364FAEEFDC3E}
 		{228CF85E-2BA8-4186-B595-17130C9A9DF9} = {7839F177-631E-47CC-8700-834A639395CD}
+		{D28CCB13-4E68-4400-9EA5-D58DB5FD958E} = {DFE503B1-6F0B-40A9-9ED6-3279C172FFF9}
+		{7E3E0695-5AA3-41EA-B94C-1AD9D439E793} = {DFE503B1-6F0B-40A9-9ED6-3279C172FFF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E18F306-1BB3-43ED-980F-482E4463543F}
